@@ -1,0 +1,61 @@
+hr {
+  border: 0;
+  border-top: 1px solid silver;
+}
+
+label.login {
+    width: 70px !important;
+    text-align: left;
+}
+
+div.ui.auth, div.ui.top.attached.menu {
+    margin-top: 40px;
+}
+
+.ui.main.container {
+    width: 100%;
+}
+
+.hide {
+    display: none !important;
+}
+
+div.title.item {
+    position: inherit !important;
+}
+
+a.header.title {
+    font-size: 1.3rem;
+}
+
+a.ui.horizontal.label {
+    margin-top: 10px;
+}
+
+p.log.message {
+    font-family: monospace;
+}
+
+.level.error {
+    background-color: #d01919 !important;
+    border-color: #d01919 !important;
+    color: #ffffff !important;
+}
+
+.level.debug {
+    background-color: #eaae00 !important;
+    border-color: #eaae00 !important;
+    color: #ffffff !important;
+}
+
+.level.info {
+    background-color: #1678c2 !important;
+    border-color: #1678c2 !important;
+    color: #ffffff !important;
+}
+
+.level.warn {
+    background-color: #f2711c !important;
+    border-color: #f2711c !important;
+    color: #ffffff !important;
+}

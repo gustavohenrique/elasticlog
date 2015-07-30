@@ -1,0 +1,14 @@
+server {
+    listen 80;
+    client_max_body_size 4G;
+    index index.html;
+
+    location /html {
+        alias /app/frontend/dist/;
+        autoindex on;
+    }
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+    }
+}

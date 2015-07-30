@@ -1,0 +1,46 @@
+<!doctype html>
+<html ng-app="MainApp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <meta name="author" content="Gustavo Henrique <gustavo@gustavohenrique.net>">
+    <title>Elasticlog</title>
+
+    <!-- build:css styles/style.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/semantic-ui/dist/semantic.css" />
+    <link rel="stylesheet" href="../bower_components/angular-loading-bar/build/loading-bar.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+
+    <div ng-controller="MenuCtrl" class="ui fixed inverted main menu">
+        <a ng-href="#/" class="title item">Elasticlog</a>
+    </div>
+
+    <div ng-view></div>
+
+    <!-- build:js script.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../bower_components/angular-loading-bar/build/loading-bar.js"></script>
+    <!-- endbower -->
+    <script src="scripts/controllers/MenuCtrl.js"></script>
+    <script src="scripts/controllers/LogCtrl.js"></script>
+    <script src="scripts/controllers/HomeCtrl.js"></script>
+
+    <script src="scripts/services/LogService.js"></script>
+
+    <script src="scripts/directives/pagination.js"></script>
+    <script src="scripts/directives/showIf.js"></script>
+
+    <script src="scripts/route.js"></script>
+    <script src="scripts/app.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
