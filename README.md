@@ -56,7 +56,7 @@ curl -H 'content-type:application/json' http://`boot2docker ip`/v1/logs/index1?g
 There is a web interface to see the log's data.
 
 ```bash
-open http://`boot2docker ip`/index.html
+open http://`boot2docker ip`/html/dist
 ```
 
 ## More
